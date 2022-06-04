@@ -231,6 +231,58 @@ header .navbar ul li a:hover{
     color: #fff;
 }
 
+.service .card-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+}
+
+.service .card-container .card{
+    height: 46rem;
+    width: 27rem;
+    border-radius: 1rem;
+    margin: 2rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.service .card-container .card .image{
+    height: 63%;
+    width: 100%;
+}
+
+.service .card-container .card .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.service .card-container .card .content{
+    margin: 1rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.service .card-container .card .content h3{
+    font-size: 2rem;
+    color: #fff;
+    padding: 1rem;
+}
+
+.service .card-container .card .content h3 span{
+    color: var(--yellow);
+    margin-right: 0.5rem;
+}
+
+
+.service .card-container .card .content p{
+    font-size: 1.4rem;
+    color: #eee;
+    padding: 1rem 0;
+}
+
 .education .box-container{
     display: flex;
     align-items: center;
@@ -283,6 +335,49 @@ header .navbar ul li a:hover{
     background: var(--yellow);
 }
 
+.skill .box-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+}
+
+.skill .box-container .box{
+    height: 20rem;
+    width: 26rem;
+    border-radius: 1rem;
+    margin: 2rem;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.skill .box-container .box .image{
+    height: 65%;
+    width: 65%;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.skill .box-container .box .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.skill .box-container .box .content{
+    margin: 1rem;
+    text-align: center;
+    justify-content: center;
+}
+
+.skill .box-container .box .content h3{
+    font-size: 2rem;
+    color: #fff;
+    padding: 1rem;
+}
+
 .projects .box-container{
     display: flex;
     align-items: center;
@@ -308,6 +403,19 @@ header .navbar ul li a:hover{
 
 .projects .box-container .box:hover img{
     transform: scale(1,2);
+}
+
+.projects .more{
+    height: 2rem;
+    width: 9rem;
+    margin: auto;
+    padding: 2rem 0;
+    text-align: center;
+    justify-content: center;
+}
+.projects .more a p{
+    font-size: 1.4rem;
+    color: var(--yellow);
 }
 
 .contact .row{
@@ -379,6 +487,10 @@ header .navbar ul li a:hover{
     display: none;
 }
 
+.top img{
+    height: 5.2rem;
+}
+
 
 
 
@@ -436,7 +548,15 @@ header .navbar ul li a:hover{
         width: 100%;
     }
 
+    .service .card-container .card{
+        width: 100%;
+    }
+
     .projects .box-container .box{
+        width: 100%;
+    }
+
+    .skill .box-container .box{
         width: 100%;
     }
 
