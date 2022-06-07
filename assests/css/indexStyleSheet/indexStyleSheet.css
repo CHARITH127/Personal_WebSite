@@ -175,6 +175,40 @@ header .navbar ul li a:hover{
     padding: 1rem 0;
 }
 
+.home .socialMediaLinks{
+    display: block;
+    margin: 0.5rem 0rem;
+    padding: 1.2rem;
+}
+
+.home .socialMediaLinks ul{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.home .socialMediaLinks ul li{
+    font-size: 3rem;
+}
+
+.home .socialMediaLinks ul li a{
+    position: relative;
+    display: block;
+    width: fit-content;
+    height: fit-content;
+    transition: 0.6s;
+}
+
+.home .socialMediaLinks ul li a i{
+    color: #fff;
+}
+.home .socialMediaLinks ul li a i:hover{
+    color: var(--yellow);
+}
+.home .socialMediaLinks ul li a:hover{
+    transform: translateY(-1rem);
+}
+
 .home span{
     color: var(--yellow);
 }
