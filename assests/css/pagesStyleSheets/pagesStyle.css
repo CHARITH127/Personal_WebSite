@@ -1,0 +1,129 @@
+:root{
+    --yellow:#f9ca24
+}
+
+*{
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all 0.2s linear;
+}
+
+*::selection{
+    background: var(--yellow);
+    color: #333;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+html::-webkit-scrollbar{
+    width: 1.4rem;
+}
+
+html::-webkit-scrollbar-track{
+    background:#222;
+}
+
+html::-webkit-scrollbar-thumb{
+    background:var(--yellow);
+}
+
+body{
+    overflow-x: hidden;
+    background: #111111;
+}
+
+section{
+    min-height: 100vh;
+    padding: 1rem;
+}
+
+.heading{
+    text-align: center;
+    color: #fff;
+    margin: 0 6rem;
+    font-size: 4rem;
+    padding: 1rem;
+    border-bottom: 1rem solid #fff4;
+    color: #fff;
+}
+
+.heading span{
+    color: var(--yellow);
+}
+
+.projects .box-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    gap: 3rem;
+}
+
+.projects .box-container .box{
+    height: 44rem;
+    width: 40rem;
+    border-radius: 1rem;
+    margin: 2rem;
+    overflow: hidden;
+    cursor: pointer;
+    background: #333333;
+}
+
+.projects .box-container .box .image{
+    height: 26rem;
+    margin: 1.3rem;
+    border-radius: 1rem;
+}
+
+.projects .box-container .box .image img{
+    height: 100%;
+    width: 100%;
+}
+
+.projects .box-container .box .content{
+    padding: 1.3rem;
+    text-align: inherit;
+}
+
+.projects .box-container .box .content h3{
+    font-size: 2.3rem;
+    color: #eee;
+}
+
+.projects .box-container .box .content h3 span{
+    color: var(--yellow);
+}
+
+.projects .box-container .box .content p{
+    font-size: 1.4rem;
+    margin-top: 1.3rem;
+    color: #eee;
+}
+
+.projects .box-container .box .content .loadmore{
+    margin-top: 2.2rem;
+    height: 3rem;
+    width: 13rem;
+    background: #222222;
+    padding: 0.667rem;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+.projects .box-container .box .content .loadmore a{
+    font-size: 1.4rem;
+    color: var(--yellow);
+}
+.projects .box-container .box .content .loadmore a i{
+    padding-left: 0.3rem;
+}
