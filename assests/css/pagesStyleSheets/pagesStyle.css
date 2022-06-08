@@ -70,7 +70,7 @@ section{
 }
 
 .projects .box-container .box{
-    height: 44rem;
+    height: 49rem;
     width: 40rem;
     border-radius: 1rem;
     margin: 2rem;
@@ -126,4 +126,18 @@ section{
 }
 .projects .box-container .box .content .loadmore a i{
     padding-left: 0.3rem;
+}
+
+
+
+
+/*================meadia query===============================*/
+@media (max-width: 400px) {
+    .projects .box-container .box{
+        width: 100%;
+    }
+
+    .projects .box-container .box .image{
+        height: 23rem;
+    }
 }
