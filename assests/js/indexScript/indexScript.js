@@ -39,6 +39,15 @@ $(document).ready(function () {
 
     });
 
-
-
 });
+
+var typed = new Typed('.typedText',{
+    strings:['Fornt end Developer..','Web developer..','Web Designer..','Software Developer..'],
+    loop:true,
+    typeSpeed:150
+})
+
+VanillaTilt.init(document.querySelectorAll('.tilt'),{
+    max:25,
+    speed:150
+})

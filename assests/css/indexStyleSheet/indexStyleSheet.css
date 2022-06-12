@@ -167,6 +167,13 @@ header .navbar ul li a:hover{
 .home h1{
     font-size:5rem;
     color: #fff;
+    margin-bottom: 0.2rem;
+}
+
+.home h2{
+    color: #eee;
+    font-size: 3.5rem;
+    margin-bottom: 2rem;
 }
 
 .home p{
@@ -294,6 +301,8 @@ header .navbar ul li a:hover{
     height: 100%;
     width: 100%;
     object-fit: cover;
+    transform-style: preserve-3d;
+    transform: translate3d(0,0,75px);
 }
 
 .service .card-container .card .content{

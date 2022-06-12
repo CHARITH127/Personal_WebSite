@@ -128,6 +128,74 @@ section{
     padding-left: 0.3rem;
 }
 
+/*==================================================================================================*/
+.assignment .box-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2rem 0;
+    gap: 3rem;
+}
+
+.assignment .box-container .box{
+    height: 49rem;
+    width: 40rem;
+    border-radius: 1rem;
+    margin: 2rem;
+    overflow: hidden;
+    cursor: pointer;
+    background: #333333;
+}
+
+.assignment .box-container .box .image{
+    height: 26rem;
+    margin: 1.3rem;
+    border-radius: 1rem;
+}
+
+.assignment .box-container .box .image img{
+    height: 100%;
+    width: 100%;
+}
+
+.assignment .box-container .box .content{
+    padding: 1.3rem;
+    text-align: inherit;
+}
+
+.assignment .box-container .box .content h3{
+    font-size: 2.3rem;
+    color: #eee;
+}
+
+.assignment .box-container .box .content h3 span{
+    color: var(--yellow);
+}
+
+.assignment .box-container .box .content p{
+    font-size: 1.4rem;
+    margin-top: 1.3rem;
+    color: #eee;
+}
+
+.assignment .box-container .box .content .loadmore{
+    margin-top: 2.2rem;
+    height: 3rem;
+    width: 13rem;
+    background: #222222;
+    padding: 0.667rem;
+    border-radius: 2rem;
+    text-align: center;
+}
+
+.assignment .box-container .box .content .loadmore a{
+    font-size: 1.4rem;
+    color: var(--yellow);
+}
+.assignment .box-container .box .content .loadmore a i{
+    padding-left: 0.3rem;
+}
 
 
 
@@ -138,6 +206,14 @@ section{
     }
 
     .projects .box-container .box .image{
+        height: 23rem;
+    }
+
+    .assignment .box-container .box{
+        width: 100%;
+    }
+
+    .assignment .box-container .box .image{
         height: 23rem;
     }
 }
