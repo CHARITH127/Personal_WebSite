@@ -35,5 +35,5 @@ Used Technologies are :-
 Refer the structural details of the page :
  <li> <a href="https://www.gloomaps.com/yiptnfbCbP">Visual site map</a></li>
  <li> <a href="https://wireframe.cc/EIh9IT">Wire Frame</a></li>
- <li> <a href="https://charithwishvajith.000webhostapp.com/">Web Host</a></li>
+ <li> <a href="">Web Host</a></li>
  <li> <a href="https://charith127.github.io/Personal_WebSite/">GitHub Pages</a></li>
